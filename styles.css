@@ -35,7 +35,7 @@ a{
 
 
 .profile{
-    max-height: 100px;
+    max-height: 150px;
     border-radius: 50%;
     margin-top: 30px;
     margin-bottom: 10px;
@@ -51,18 +51,18 @@ a{
     text-align: center;
     font-family: 'Roboto',sans-serif;
     /* font-weight: 100; */
-    letter-spacing: 2px;
+    letter-spacing: 3px;
 }
 
 .nav-link{
     text-transform: uppercase;
-    font-size: small;
+    font-size: 20px;
     color: white;
     opacity: 55%;
 }
 
 li{
-    margin: 10px 0;
+    margin: 20px 0;
 
 }
 
@@ -81,7 +81,7 @@ li{
 h1{
     font-family: 'Teko',sans-serif;
     font-weight: 800;
-    font-size: 4rem;
+    font-size: 6rem;
     text-transform: uppercase;
     opacity: .75;
     
@@ -100,7 +100,7 @@ h1>span{
   text-transform: uppercase;
   opacity: .75;
   /* font-weight: 50; */
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 p>span>a{
     text-decoration: none;
@@ -113,9 +113,9 @@ p>span>a{
 .about-text{
     font-family: 'Quicksand',sans-serif;
     margin-top: 40px;
-    font-size: small;
+    font-size: 20px;
     opacity: .75;
-    line-height: 1rem;
+    line-height: 2rem;
 }
 
 
@@ -150,7 +150,7 @@ hr{
 
 .title{
     font-family: 'Teko',sans-serif;
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-transform: uppercase;
     /* opacity: .75; */
 }
@@ -161,15 +161,15 @@ hr{
  margin-top: 30px;   
  font-family: 'Teko',sans-serif;
  text-transform: uppercase;
- font-size: 1rem;
+ font-size: 2rem;
  opacity: .75;   
 }
 
 .freelancer-para{
     font-family: 'Quicksand',sans-serif;
     opacity: .75;
-    font-size: 12px;
-    line-height: 1rem;
+    font-size: 20px;
+    line-height: 2rem;
 }
 
 .project-list{
@@ -181,15 +181,15 @@ hr{
     margin-top: 10px;
     font-family: 'Quicksand',sans-serif;
     text-transform: uppercase;
-    font-size: 11px;
+    font-size: 20px;
     color: black;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .edu-para{
     text-transform: uppercase;
     opacity: .75;
-    font-size: 12px;
+    font-size: 20px;
     font-family: 'Quicksand',sans-serif ;
     margin-top: 5px;
 }
@@ -203,7 +203,7 @@ hr{
     filter: grayscale();
 }
 .c-svg{
-    height: 60px;
+    height: 100px;
 }
 
 .skill-container{
@@ -212,6 +212,6 @@ hr{
 }
 
 .intrest-text{
-    font-size: small;
+    font-size: 20px;
     font-family: 'Quicksand',sans-serif ;
 }
