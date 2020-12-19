@@ -215,3 +215,61 @@ hr{
     font-size: 20px;
     font-family: 'Quicksand',sans-serif ;
 }
+
+
+
+
+/* Responsive Design */
+
+@media (max-width:700px) {
+    body{
+        overflow-x: hidden;
+    }
+    .left {
+        /* display: none; */
+        position: fixed;
+        z-index: 12;
+
+        left: 0;
+        top: 0;
+        right: 0;
+        max-height: 10vh;
+        
+        
+    }
+
+    .nav {
+        display: flex;
+    }
+
+    .nav-link{
+        margin-left: 10px;
+        font-size: 13px;
+
+    }
+    #abt{
+        margin-left: 0;
+    }
+    
+    h1{
+        position: relative;
+        
+    }
+
+    h1 > span{
+        position: absolute;
+        top: 70px;
+        left: 0;
+    }
+
+    .address {
+        margin-top: 40px;
+    }
+
+    .profile {
+        display: none;
+    }
+    .right {
+        padding: 1.5rem;
+    }
+}
